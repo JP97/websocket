@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <WebSocket></WebSocket>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import WebSocket from './components/websocket.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    WebSocket
   }
 }
 </script>
